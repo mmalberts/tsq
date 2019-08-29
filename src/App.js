@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import MainCarousel from './components/maincarousel';
 import About from './pages/About';
-import Quilts from './pages/Quilts';
-import Pillows from './pages/Pillows';
+import Products from './pages/Products';
 import Ordering from './pages/Ordering';
 
 const styles = {
@@ -23,20 +23,17 @@ const App = () => (
 						<Link to='/about' style={styles.navlink}>ABOUT US</Link>
 					</li>
 					<li className="nav-item">
-						<Link to='quilts' style={styles.navlink}>QUILTS</Link>
-					</li>
-					<li className="nav-item">
-						<Link to='/pillows' style={styles.navlink}>PILLOWS</Link>
+						<Link to='/products' style={styles.navlink}>PRODUCTS</Link>
 					</li>
 					<li className="nav-item">
 						<Link to='/ordering' style={styles.navlink}>ORDERING</Link>
 					</li>
 				</ul>
 			</nav>
-			<Route path='/about' component={About} />
-			<Route path='/quilts' component={Quilts} />
-			<Route path='/pillows' component={Pillows} />
-			<Route path='/ordering' component={Ordering} />
+			<Route exact path='/' component={MainCarousel} />
+			<Route exact path='/about' component={About} />
+			<Route exact path='/products' component={Products} />
+			<Route exact path='/ordering' component={Ordering} />
 		</div>
 	</BrowserRouter>
 );
