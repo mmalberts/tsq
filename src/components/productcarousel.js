@@ -5,7 +5,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const styles = {
 	carousel: {
-		width: '70%',
+		width: '50%',
 		margin: '0 auto',
 		textAlign: 'center',
 	},
@@ -21,27 +21,27 @@ const ProductCarousel = () => (
 	<div className="container">
 		<CarouselProvider
 			naturalSlideWidth={5}
-			naturalSlideHeight={3}
+			naturalSlideHeight={4}
 			totalSlides={5}
 			style={styles.carousel}
 			isPlaying={true}
-			interval={3000}
+			interval={5000}
 		>
 			<Slider>
 				<Slide index={0} style={styles.slide}>
-					<Image src='./images/placeholder1.jpeg' hasMasterSpinner={true} isBgImage={true} />
+					<Image src='./images/quilt_red.jpg' hasMasterSpinner={true} isBgImage={true} />
 				</Slide>
 				<Slide index={1} style={styles.slide}>
-					<Image src='./images/placeholder2.jpeg' hasMasterSpinner={true} isBgImage={true} />
+					<Image src='./images/pillow_il.jpg' isBgImage={true} />
 				</Slide>
 				<Slide index={2} style={styles.slide}>
-					<Image src='./images/placeholder3.jpeg' hasMasterSpinner={true} isBgImage={true} />
+					<Image src='./images/duvet_1.jpg' isBgImage={true} />
 				</Slide>
 				<Slide index={3} style={styles.slide}>
-					<Image src='./images/placeholder1.jpeg' hasMasterSpinner={true} isBgImage={true} />
+					<Image src='./images/blanket_1.jpg' isBgImage={true} />
 				</Slide>
 				<Slide index={4} style={styles.slide}>
-					<Image src='./images/placeholder3.jpeg' hasMasterSpinner={true} isBgImage={true} />
+					<Image src='./images/bear_1.jpg' isBgImage={true} />
 				</Slide>				
 			</Slider>
 			<Dot slide={0} style={styles.dot}/>

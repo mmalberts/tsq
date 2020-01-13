@@ -23,9 +23,9 @@ const QuiltsText = () => (
 		<br/>
 		<div className='row'>
 			<div className='col-md-2'></div>
-			<div className='col-md-8'>
-				<p style={styles.text}>
-					Bears text goes here!
+			<div className='col-md-8' style={styles.text}>
+				<p>
+					A teddy bear made from the favorite clothing of someone you are missing one makes a wonderful gift. Give one of these a squeeze and your loved one won't feel quite so far away.
 				</p>
 			</div>
 			<div className='col-md-2'></div>

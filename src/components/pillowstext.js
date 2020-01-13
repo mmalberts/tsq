@@ -23,14 +23,14 @@ const PillowsText = () => (
 		<br/>
 		<div className='row'>
 			<div className='col-md-2'></div>
-			<div className='col-md-8'>
-				<p style={styles.text}>
-					Give me your tired, your worn, your favorite t-shirts, and I will breathe new life into them by making them into a soft, comfy pillow.
-					<br/>
-					<br/>
-					A unique gift idea for the high school or college graduate. How about an end of season gift for your favorite athlete? A used football jersey makes a great oversized pillow. Any sports fan would love to lay their head on a pillow with their team logo. Have a varsity letter, but no varsity jacket? We can make a beautiful pillow in your school colors with the varsity letter in the center.
-					<br/>
-					<br/>
+			<div className='col-md-8' style={styles.text}>
+				<p>
+					Our custom pillows make a unique gift idea for the high school or college graduate. How about an end of season gift for your favorite athlete? A used football jersey makes a great oversized pillow. Have a varsity letter, but no letterman jacket? We can make a pillow in your school colors with your varsity letter in the center.
+				</p>
+				<p>
+					Alternatively, a pillow made from favorite clothing items of a lost loved one can be a wonderful way to honor their memory.
+				</p>
+				<p>
 					Pillow prices start at $25. Some of the covers are removable for easy washing.
 				</p>
 			</div>

@@ -23,9 +23,9 @@ const DuvetText = () => (
 		<br/>
 		<div className='row'>
 			<div className='col-md-2'></div>
-			<div className='col-md-8'>
-				<p style={styles.text}>
-					Duvet Covers text goes here!
+			<div className='col-md-8' style={styles.text}>
+				<p>
+					We can also turn your old t-shirts into custom-made duvet covers. Our duvet covers require less fabric and labor than our quilts, making them a simpler (and cheaper) alternative. Each duvet cover has a cotton backing and snaps for easy removal and cleaning.
 				</p>
 			</div>
 			<div className='col-md-2'></div>

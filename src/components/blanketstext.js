@@ -23,9 +23,9 @@ const BlanketsText = () => (
 		<br/>
 		<div className='row'>
 			<div className='col-md-2'></div>
-			<div className='col-md-8'>
-				<p style={styles.text}>
-					Blankets text goes here!
+			<div className='col-md-8' style={styles.text}>
+				<p>
+					Our fleece-lined blankets offer another alternative to our quilts that require less fabric and labor. You provide the t-shirts, we'll help you pick the fleece.
 				</p>
 			</div>
 			<div className='col-md-2'></div>

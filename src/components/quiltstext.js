@@ -23,26 +23,17 @@ const QuiltsText = () => (
 		<br/>
 		<div className='row'>
 			<div className='col-md-2'></div>
-			<div className='col-md-8'>
-				<p style={styles.text}>
-					Wondering what to do with t-shirts you've collected but really never wear? You can't bear to part with them, but you need the closet space.
-					<br/>
-					<br/>
-					Well, now there's a solution - patch them together into a unique quilt. You'll have a beautiful memento of those special concerts, annual races and events, or celebrated school teams.
-					<br/>
-					<br/>
-					We can also take special swatches from your childhood or an embroidered dedication and make an eclectic style quilt. It's a mix of 20 to 30 pieces of any of your favorite fabrics.
-					<br/>
-					<br/>
-					It's easy to order. Just provide the t-shirts, choose a style, a grid fabric, and the corner stones or stars, and we'll do the rest.
-					<br/>
-					<br/>
-					We will work closely with you to determine the best layout and colors for your quilt. The actual stitching throughout the quilt can be a design of your choice. There are so many to choose from, depending on the theme of the quilt and the interests of the recipient.
-					<br/>
-					<br/>
-					You will approve the layout before we sew the squares together, and your quilt will be completed in 4 to 6 weeks.
-					<br/>
-					<br/>
+			<div className='col-md-8' style={styles.text}>
+				<p>
+					Send us your old t-shirts and we will patch them together into a unique quilt. You'll have a beautiful memento of those special concerts, annual races and events, or celebrated school teams.
+				</p>
+				<p>
+					It's easy to order. Just provide the t-shirts, choose a style, a grid fabric, and the corner stones or stars. We will work closely with you to determine the best layout and colors for your quilt. You will approve the layout before we sew the squares together, and your quilt will be completed in 4 to 6 weeks.
+				</p>
+				<p>
+					Quilts can be further customized by adding embroidered dedications, individual swatches or patches, and by selecting a thematic stitching pattern throughout the entire quilt.
+				</p>
+				<p>
 					Approximate size of finished quilts and number of shirts needed:
 					<br/>
 					<br/>
