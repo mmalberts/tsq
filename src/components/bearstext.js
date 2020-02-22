@@ -1,5 +1,5 @@
 import React from "react";
-import BearCarousel from './bearcarousel'
+import GenericCarousel from './genericcarousel'
 
 const styles = {
 	header: {
@@ -15,11 +15,16 @@ const styles = {
 	}
 }
 
+const images = [
+	"./images/bear_1.jpg",
+	"./images/bear_2.jpg"
+]
+
 const QuiltsText = () => (
 	<div className="container">
 		<h1 style={styles.header}>BEARS</h1>
 		<br/>
-		<BearCarousel />
+		<GenericCarousel images={images} />
 		<br/>
 		<div className='row'>
 			<div className='col-md-2'></div>

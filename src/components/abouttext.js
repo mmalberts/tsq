@@ -1,5 +1,5 @@
 import React from "react";
-import AboutCarousel from './aboutcarousel'
+import GenericCarousel from './genericcarousel'
 
 const styles = {
 	header: {
@@ -15,11 +15,19 @@ const styles = {
 	}
 }
 
+const images = [
+	'./images/detail_gray.jpg',
+	'./images/quilt_bluegreen_rot.jpg',
+	'./images/pillow_dad.jpg',
+	'./images/detail_rbw.jpg',
+	'./images/blanket_2.jpg'
+]
+
 const AboutText = () => (
 	<div className="container">
 		<h1 style={styles.header}>ABOUT US</h1>
 		<br/>
-		<AboutCarousel />
+		<GenericCarousel images={images} />
 		<br/>
 		<div className='row'>
 			<div className='col-md-2'></div>

@@ -13,7 +13,7 @@ const styles = {
 	navlink: {
 		color: "#afafaf",
 		fontFamily: "Lora",
-		margin: "10px",
+		margin: "10px"
 	},
 	ddlink: {
 		color: "#afafaf",

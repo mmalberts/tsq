@@ -1,5 +1,5 @@
 import React from "react";
-import MainCarousel from "./maincarousel";
+import GenericCarousel from "./genericcarousel";
 
 const styles = {
 	header: {
@@ -15,11 +15,19 @@ const styles = {
 	}
 }
 
+const images = [
+	'./images/quilt_16x16.jpg',
+	'./images/pillow_dad_2.jpg',
+	'./images/blanket_3_rot.jpg',
+	'./images/detail_corner.jpg',
+	'./images/bear_1.jpg'
+]
+
 const MainText = () => (
 	<div className="container">
 		<h1 style={styles.header}>WELCOME</h1>
 		<br/>
-		<MainCarousel />
+		<GenericCarousel images={images} />
 		<br/>
 		<div className="row">
 			<div className="col-md-2"></div>

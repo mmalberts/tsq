@@ -23,7 +23,21 @@ const OrderingText = () => (
 			<div className='col-md-2'></div>
 			<div className='col-md-8' style={styles.text}>
 				<p>
-					We cannot give specific pricing since the items are made to order. Please email or call Mary Ann Alberts for an extimate or for any questions you may have.
+					Pricing Information:
+				</p>
+				<p>
+					Quilts: $25/square
+					<br/>
+					Duvet covers: $16/square
+					<br/>
+					Blankets: $10/square
+					<br/>
+					Pillows: starting at $25
+					<br/>
+					Bears: Contact us for more information
+					<br/>
+					<br/>
+					Prices include all labor and materials
 				</p>
 				<p>
 					Our email address:

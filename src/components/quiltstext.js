@@ -1,5 +1,5 @@
 import React from "react";
-import QuiltCarousel from './quiltcarousel'
+import GenericCarousel from './genericcarousel'
 
 const styles = {
 	header: {
@@ -15,11 +15,18 @@ const styles = {
 	}
 }
 
+const images = [
+	'./images/quilt_bluegreen.jpg',
+	'./images/detail_bluegreen.jpg',
+	'./images/quilt_red.jpg',
+	'./images/quilt_16x16.jpg'
+]
+
 const QuiltsText = () => (
 	<div className="container">
 		<h1 style={styles.header}>QUILTS</h1>
 		<br/>
-		<QuiltCarousel />
+		<GenericCarousel images={images} />
 		<br/>
 		<div className='row'>
 			<div className='col-md-2'></div>
@@ -33,6 +40,9 @@ const QuiltsText = () => (
 				<p>
 					Quilts can be further customized by adding embroidered dedications, individual swatches or patches, and by selecting a thematic stitching pattern throughout the entire quilt.
 				</p>
+				<p>
+					Pricing: $25/square (includes all labor and materials)
+				</p>				
 				<p>
 					Approximate size of finished quilts and number of shirts needed:
 					<br/>
