@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import Main from './pages/Main';
 import About from './pages/About';
+import Masks from './pages/Masks';
 import Quilts from './pages/Quilts';
 import Pillows from './pages/Pillows';
 import Bears from './pages/Bears';
 import Blankets from './pages/Blankets';
 import DuvetCovers from './pages/DuvetCovers';
 import Ordering from './pages/Ordering';
+import './App.css';
 
 const styles = {
 	navlink: {
@@ -36,6 +38,7 @@ const App = () => (
 								PRODUCTS
 							</a>
 							<div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<Link to="/masks" className="dropdown-item" style={styles.ddlink}>Masks</Link>
 								<Link to="/quilts" className="dropdown-item" style={styles.ddlink}>Quilts</Link>
 								<Link to="/pillows" className="dropdown-item" style={styles.ddlink}>Pillows</Link>
 								<Link to="/duvets" className="dropdown-item" style={styles.ddlink}>Duvet Covers</Link>
@@ -52,6 +55,7 @@ const App = () => (
 			<Route exact path='/' component={Main} />
 			<Route exact path='/about' component={About} />
 			<Route exact path='/ordering' component={Ordering} />
+			<Route exact path='/masks' component={Masks} />
 			<Route exact path='/quilts' component={Quilts} />
 			<Route exact path='/pillows' component={Pillows} />
 			<Route exact path='/duvets' component={DuvetCovers} />

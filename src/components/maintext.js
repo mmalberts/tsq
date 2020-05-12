@@ -8,14 +8,21 @@ const styles = {
 		textAlign: "center",
 		fontSize: "50px"
 	},
-	text : {
+	text: {
 		 color: "#afafaf",
 		 fontFamily: "Lora",
 		 textAlign: "center"
+	},
+	link: {		
+		color: "#8a8a8a",
+		fontFamily: "Lora",
+		textDecoration: "underline"
 	}
 }
 
 const images = [
+	'./images/ben_rb_mask.jpg',
+	'./images/ann_ob_mask.jpg',
 	'./images/quilt_16x16.jpg',
 	'./images/pillow_dad_2.jpg',
 	'./images/blanket_3_rot.jpg',
@@ -32,6 +39,13 @@ const MainText = () => (
 		<div className="row">
 			<div className="col-md-2"></div>
 			<div className="col-md-8" style={styles.text}>
+				<h4>
+					Important Note:
+				</h4>
+				<p>
+					In response to the COVID-19 pandemic, we have been focusing our efforts on making masks to keep you safe. We are offering masks featuring the logos of your favorite sports teams. For more information, <a href="https://www.etsy.com/shop/TeamSpiritMasks" style={styles.link}>visit our Etsy shop.</a> Thank you for your continued support of our small business during this time, and we hope you stay safe and healthy.
+				</p>
+				<hr/>
 				<p>
 					At Team Spirit Quilts, we understand that it can be difficult to part with clothing that holds sentimental value. Instead of letting it take up space in your dresser or closet, however, allow us to breathe new life into it by turning it into cuddly memorabilia.
 				</p>

@@ -11,6 +11,11 @@ const styles = {
 		color: '#afafaf',
 		fontFamily: 'Lora',
 		textAlign: 'center',
+	},
+	link: {		
+		color: "#8a8a8a",
+		fontFamily: "Lora",
+		textDecoration: "underline"
 	}
 }
 
@@ -26,6 +31,8 @@ const OrderingText = () => (
 					Pricing Information:
 				</p>
 				<p>
+					Masks: $18
+					<br/>
 					Quilts: $25/square
 					<br/>
 					Duvet covers: $16/square
@@ -34,7 +41,7 @@ const OrderingText = () => (
 					<br/>
 					Pillows: starting at $25
 					<br/>
-					Bears: Contact us for more information
+					Bears: contact us for more information
 					<br/>
 					<br/>
 					Prices include all labor and materials
