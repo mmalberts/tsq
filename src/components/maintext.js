@@ -43,7 +43,7 @@ const MainText = () => (
 					Important Note:
 				</h4>
 				<p>
-					In response to the COVID-19 pandemic, we have been focusing our efforts on making masks to keep you safe. We are offering masks featuring the logos of your favorite sports teams. For more information, <a href="https://www.etsy.com/shop/TeamSpiritMasks" style={styles.link}>visit our Etsy shop.</a> Thank you for your continued support of our small business during this time, and we hope you stay safe and healthy.
+					In response to the COVID-19 pandemic, we have been focusing our efforts on making masks to keep you safe. We are offering masks featuring the logos of your favorite sports teams. For more information, <a href="/masks" style={styles.link}>check out our Masks page.</a> Thank you for your continued support of our small business during this time, and we hope you stay safe and healthy.
 				</p>
 				<hr/>
 				<p>

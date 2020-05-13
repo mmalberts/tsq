@@ -20,9 +20,12 @@ const styles = {
 
 const images = [
 	"./images/ann_ob_mask.jpg",
+	"./images/mask_chicago3.jpg",
 	"./images/ben_rb_mask.jpg",
-	"./images/la_masks.jpg",
-	"./images/ob_masks.jpg"
+	"./images/mask_chicago.jpg",
+	"./images/ob_masks.jpg",
+	"./images/mask_packers.jpg",
+	"./images/mask_sox.jpg"
 ]
 
 const MaskText = () => (
@@ -35,13 +38,13 @@ const MaskText = () => (
 			<div className='col-md-2'></div>
 			<div className='col-md-8' style={styles.text}>
 				<p>
-					Keep yourself safe while showing your team spirit with our face masks. Our masks are 100% cotton, made with two layers of fabric and a layer of interfacing in between, and covered elastic straps to keep your ears comfortable.
+					Keep yourself safe while showing your team spirit with our face masks. Our masks are 100% cotton, made with two layers of fabric and a layer of interfacing in between, and covered elastic straps to keep your ears comfortable. We offer White Sox, Cubs, Bears, Blackhawks, and Packers masks.
 				</p>
 				<p>
 					Please note that these face masks <span style={styles.note}>are NOT medical grade.</span>
 				</p>
 				<p>
-					Masks are $18. Please see our Ordering page for details on how to get your own.
+					Masks are $19. Please see our Ordering page for details on how to get your own.
 				</p>
 			</div>
 			<div className='col-md-2'></div>
