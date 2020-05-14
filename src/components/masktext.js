@@ -19,6 +19,7 @@ const styles = {
 }
 
 const images = [
+	"./images/masks_chicago6.jpg",
 	"./images/ann_ob_mask.jpg",
 	"./images/mask_chicago3.jpg",
 	"./images/ben_rb_mask.jpg",
@@ -44,7 +45,7 @@ const MaskText = () => (
 					Please note that these face masks <span style={styles.note}>are NOT medical grade.</span>
 				</p>
 				<p>
-					Masks are $19. Please see our Ordering page for details on how to get your own.
+					Masks are $15. Please see our Ordering page for details on how to get your own.
 				</p>
 			</div>
 			<div className='col-md-2'></div>

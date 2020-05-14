@@ -31,7 +31,7 @@ const OrderingText = () => (
 					Pricing Information:
 				</p>
 				<p>
-					Masks: $19
+					Masks: $15
 					<br/>
 					Quilts: $25/square
 					<br/>
