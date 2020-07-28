@@ -1,4 +1,28 @@
-/*body {
-  background-image: url("./images/stitching.jpg");
+body {
+  background-image: url("./images/detail_white_horiz.jpg");
 }
-*/
+
+.container {
+  width: 100%;
+/*  border: 1px solid blue;*/
+}
+
+.navbar {
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 50px;
+}
+
+.navlink {
+  color: #afafaf;
+  font-family: "Lora";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-item {
+  color: #afafaf;
+  font-family: "Lora";
+}

@@ -11,47 +11,35 @@ import DuvetCovers from './pages/DuvetCovers';
 import Ordering from './pages/Ordering';
 import './App.css';
 
-const styles = {
-	navlink: {
-		color: "#afafaf",
-		fontFamily: "Lora",
-		margin: "10px"
-	},
-	ddlink: {
-		color: "#afafaf",
-		fontFamily: "Lora"		
-	}
-}
-
 const App = () => (
 	<BrowserRouter>
 		<div className="container">
-			<nav className="navbar">
+			<div className="navbar">
 				<Link to='/'><img src="./images/tsqlogo.png"></img></Link>
 				<ul className="nav justify-content-end">
 					<li className="nav-item">
-						<Link to='/about' style={styles.navlink}>ABOUT US</Link>
+						<Link to='/about' className="navlink">ABOUT US</Link>
 					</li>
 					<li className="nav-item">
-						<div className="dropdown show">
-							<a className="dropdown-toggle" style={styles.navlink} role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<div className="dropdown show navlink">
+							<a className="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								PRODUCTS
 							</a>
 							<div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-								<Link to="/masks" className="dropdown-item" style={styles.ddlink}>Masks</Link>
-								<Link to="/quilts" className="dropdown-item" style={styles.ddlink}>Quilts</Link>
-								<Link to="/pillows" className="dropdown-item" style={styles.ddlink}>Pillows</Link>
-								<Link to="/duvets" className="dropdown-item" style={styles.ddlink}>Duvet Covers</Link>
-								<Link to="/blankets" className="dropdown-item" style={styles.ddlink}>Blankets</Link>
-								<Link to="/bears" className="dropdown-item" style={styles.ddlink}>Bears</Link>
+								<Link to="/masks" className="dropdown-item" >Masks</Link>
+								<Link to="/quilts" className="dropdown-item" >Quilts</Link>
+								<Link to="/pillows" className="dropdown-item" >Pillows</Link>
+								<Link to="/duvets" className="dropdown-item" >Duvet Covers</Link>
+								<Link to="/blankets" className="dropdown-item" >Blankets</Link>
+								<Link to="/bears" className="dropdown-item" >Bears</Link>
 							</div>
 						</div>
 					</li>
 					<li className="nav-item">
-						<Link to='/ordering' style={styles.navlink}>ORDERING</Link>
+						<Link to='/ordering' className="navlink">ORDERING</Link>
 					</li>
 				</ul>
-			</nav>
+			</div>
 			<Route exact path='/' component={Main} />
 			<Route exact path='/about' component={About} />
 			<Route exact path='/ordering' component={Ordering} />

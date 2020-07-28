@@ -37,7 +37,7 @@ const OrderingText = () => (
 					<br/>
 					Duvet covers: $16/square
 					<br/>
-					Blankets: $10/square
+					Blankets: $15/square
 					<br/>
 					Pillows: starting at $25
 					<br/>
