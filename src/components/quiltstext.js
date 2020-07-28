@@ -41,7 +41,7 @@ const QuiltsText = () => (
 					Quilts can be further customized by adding embroidered dedications, individual swatches or patches, and by selecting a thematic stitching pattern throughout the entire quilt.
 				</p>
 				<p>
-					Pricing: $25/square (includes all labor and materials)
+					Pricing: starts at $28/square (includes all labor and materials)
 				</p>				
 				<p>
 					Approximate size of finished quilts and number of shirts needed:

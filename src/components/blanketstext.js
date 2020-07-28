@@ -34,7 +34,7 @@ const BlanketsText = () => (
 					Our fleece-lined blankets offer another alternative to our quilts that require less fabric and labor. You provide the t-shirts, we'll help you pick the fleece.
 				</p>
 				<p>
-					Pricing: $15/square (includes all labor and materials)
+					Pricing: starts at $15/square (includes all labor and materials)
 				</p>
 			</div>
 			<div className='col-md-2'></div>

@@ -31,20 +31,20 @@ const OrderingText = () => (
 					Pricing Information:
 				</p>
 				<p>
-					Masks: $15
+					Masks: starting at $15
 					<br/>
-					Quilts: $25/square
+					Quilts: starting at $28/square
 					<br/>
-					Duvet covers: $16/square
+					Duvet covers: starting at $18/square
 					<br/>
-					Blankets: $15/square
+					Blankets: starting at $15/square
 					<br/>
 					Pillows: starting at $25
 					<br/>
 					Bears: contact us for more information
 					<br/>
 					<br/>
-					Prices include all labor and materials
+					Prices include all labor and materials.
 				</p>
 				<p>
 					Our email address:

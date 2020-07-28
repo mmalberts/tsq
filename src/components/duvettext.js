@@ -32,7 +32,7 @@ const DuvetText = () => (
 					We can also turn your old t-shirts into custom-made duvet covers. Our duvet covers require less fabric and labor than our quilts, making them a simpler (and cheaper) alternative. Each duvet cover has a cotton backing and snaps for easy removal and cleaning.
 				</p>
 				<p>
-					Pricing: $18/square (includes all labor and materials)
+					Pricing: starts at $18/square (includes all labor and materials)
 				</p>
 			</div>
 			<div className='col-md-2'></div>
