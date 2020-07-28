@@ -1,5 +1,5 @@
 body {
-  background-image: url("./images/detail_white_horiz.jpg");
+  /*background-image: url("./images/detail_white_horiz.jpg");*/
 }
 
 .container {
@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   width: 100%;
   background-color: white;
   opacity: 0.9;
